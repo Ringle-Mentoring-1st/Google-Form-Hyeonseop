@@ -7,7 +7,6 @@ import {
 
 function App() {
   return (
-    <div className="App">
       <Router>
         <Switch>
           <Route exact path="/users/login" component={LoginPage} />
@@ -23,7 +22,6 @@ function App() {
           <Route component={NotFoundPage} />
         </Switch>
       </Router>
-    </div>
   );
 }
 
